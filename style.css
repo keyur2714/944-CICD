@@ -1,0 +1,17 @@
+/* style.css */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    margin: auto;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
