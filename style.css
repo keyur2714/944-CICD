@@ -4,14 +4,40 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .container {
     background-color: #fff;
     padding: 40px;
     margin: auto;
-    width: 50%;
+    width: 60%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #007BFF;
+}
+
+th, td {
+    border: 1px solid #007BFF;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.row-blue {
+    background-color: #e6f0ff;
+}
+
+.row-grey {
+    background-color: #f9f9f9;
 }
